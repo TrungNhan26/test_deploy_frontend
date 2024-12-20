@@ -321,7 +321,7 @@
             const formData = new FormData();
             formData.append("file", file);
 
-            fetch('http://127.0.0.1:8000/classify', {
+            fetch('https://test-deploy-backend-4.onrender.com/classify', {
                 method: 'POST',
                 body: formData
             })
